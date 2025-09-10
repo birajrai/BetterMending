@@ -1,9 +1,0 @@
-# Language configuration for BetterMending
-prefix: "&8[&6BetterMending&8] "
-item_repaired: "&aYour item has been fully repaired!"
-item_partially_repaired: "&eYour item has been partially repaired."
-no_experience: "&cYou don't have any experience to repair this item."
-no_permission: "&cYou don't have permission to do that."
-plugin_reloaded: "&aPlugin reloaded successfully."
-plugin_toggled_on: "&aMending repair is now enabled for you."
-plugin_toggled_off: "&cMending repair is now disabled for you."
