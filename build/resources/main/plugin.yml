@@ -1,0 +1,21 @@
+name: BetterMending
+version: '1.1'
+main: io.github.birajrai.bettermending.Main
+api-version: '1.13'
+authors: [ Biraj Rai ]
+description: A Plugin that allows players to repair items with mending using experience.
+website: https://github.com/birajrai/BetterMending
+commands:
+  bettermending:
+    description: Main command for BetterMending.
+    aliases: [bm]
+permissions:
+  bettermending.use:
+    description: Allows players to use the shift-right-click repair feature.
+    default: true
+  bettermending.reload:
+    description: Allows staff to reload the plugin's configuration.
+    default: op
+  bettermending.toggle:
+    description: Allows players to toggle the repair feature for themselves.
+    default: true

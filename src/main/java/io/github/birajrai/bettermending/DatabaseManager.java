@@ -15,11 +15,11 @@ import java.util.logging.Level;
 
 public class DatabaseManager {
 
-    private final JavaPlugin plugin;
+    private final Main plugin;
     private Connection connection;
     private final String databasePath;
 
-    public DatabaseManager(JavaPlugin plugin) {
+    public DatabaseManager(Main plugin) {
         this.plugin = plugin;
         this.databasePath = "jdbc:h2:" + plugin.getDataFolder().getAbsolutePath() + File.separator + "player_data";
     }
