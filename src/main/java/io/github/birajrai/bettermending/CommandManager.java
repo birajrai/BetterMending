@@ -17,10 +17,10 @@ public class CommandManager implements CommandExecutor, TabCompleter {
         this.plugin = plugin;
     }
 
-    @Override
+        @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (args.length == 0) {
-            sender.sendMessage(plugin.getConfigManager().getMessage("no_permission"));
+            sender.sendMessage(plugin.getConfigManager().getMessage("command_usage"));
             return true;
         }
 
@@ -57,6 +57,7 @@ public class CommandManager implements CommandExecutor, TabCompleter {
             return true;
         }
 
+        sender.sendMessage(plugin.getConfigManager().getMessage("command_usage"));
         return true;
     }
 
