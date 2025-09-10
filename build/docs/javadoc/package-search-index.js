@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.birajrai.bettermending"},{"l":"io.github.birajrai.bettermending.api"}];updateSearchResults();

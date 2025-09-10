@@ -1,0 +1,23 @@
+# BetterMending Plugin Configuration
+# Toggle the entire plugin on or off.
+enabled: true
+
+# Amount of durability points to be repaired per one experience point.
+# Default vanilla mending rate is 2.
+durability-per-xp: 2
+
+# Should the repair feature be on for players by default?
+# If true, players can use /bm toggle to disable it.
+# If false, players must use /bm toggle to enable it.
+toggle_default_on: true
+
+# Sounds played on repair.
+sounds:
+  full_repair:
+    name: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 1.0
+    pitch: 1.0
+  partial_repair:
+    name: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 1.0
+    pitch: 0.8
